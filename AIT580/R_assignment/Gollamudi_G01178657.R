@@ -3,7 +3,7 @@
 ###--------------------------------------
 
 rm(list=ls())
-setwd("C:/Users/gobha/OneDrive/Desktop/MSDA-1/AIT/GIT/AIT580/data")
+setwd("Gollamudi_AIT580/data")
 data <- read.csv('EmployeeAttrition.csv')
 
 # this is just for testing to use "print" statement.
