@@ -5,7 +5,7 @@ Find one example of distortion or unnecessary detail in a visualization (paste t
 ### Source:
 https://howmuch.net/articles/pharmaceutical-trade-around-the-world
 The above Visualisation was supposed to represent the export pharmaceutical trade around the world. 
-###Problems:
+### Problems:
 * Though the graph shows the data it is neither clear nor efficient in communicating the data. 
 * The visualisation tried to depict the Export by changing the size of each country according to export value and using ovals for each country. The map became distorted and hard to visualize.
 * Due to this even comparison became difficult. 
