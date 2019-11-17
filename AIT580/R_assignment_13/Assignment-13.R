@@ -26,7 +26,7 @@ library(ggplot2)
 
 #Regression
 
-data <- read.csv('C:/Users/gobha/OneDrive/Desktop/MSDA-1/AIT/GIT/AIT580/data/EmployeeAttrition.csv')
+data <- read.csv('data/EmployeeAttrition.csv')
 #Q1
 with(data,scatter.smooth(TotalWorkingYears,MonthlyIncome))
 #From the scatter graph it can be observed that the mounthly income is increasing
