@@ -18,9 +18,6 @@ titles <- html_nodes(webpage, "div h2")
 
 without_tags <- gsub("<.*?>", "", titles) 
 
-x<-data.frame(without_tags[0:17])
-
-
 # Assignment 15 Task 1: write scripts that extract "titles" and "news summary" of articles out of the scrapped data. 
 
 # Then, print them out using "print()" statement. 
@@ -28,6 +25,10 @@ x<-data.frame(without_tags[0:17])
 n_summary<- html_nodes(webpage,"p")
 without_sum<- gsub("<.*?>", "",n_summary) 
 y<-data.frame(without_sum)
+
+x<-data.frame(without_tags[0:(length(without_sum))])
+
+
 z<-data.frame(x,y)
 
 # Assignment 15 Task 2: write scripts that oraganize your data as dataframe with column names, "title" and "news summary", respectively.
