@@ -30,6 +30,7 @@ x<-data.frame(without_tags[0:(length(without_sum))])
 
 
 z<-data.frame(x,y)
+z
 
 # Assignment 15 Task 2: write scripts that oraganize your data as dataframe with column names, "title" and "news summary", respectively.
 
