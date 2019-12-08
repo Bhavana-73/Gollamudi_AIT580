@@ -28,13 +28,13 @@ x<-data.frame(without_tags[0:17])
 n_summary<- html_nodes(webpage,"p")
 without_sum<- gsub("<.*?>", "",n_summary) 
 y<-data.frame(without_sum)
-
+z<-data.frame(x,y)
 
 # Assignment 15 Task 2: write scripts that oraganize your data as dataframe with column names, "title" and "news summary", respectively.
 
 # Then, save this dataframe as a CSV file. Name it as "NYT_titles.csv". 
 
-x<-data.frame(titles[16],without_tags)
+write.csv(z,"AIT580/R_assignment_15/NYT_titles.csv")
 
 
 
